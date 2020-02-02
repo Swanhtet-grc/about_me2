@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*About Me stylesheet
+
+Author: Swan Htet
+Date: Jan 6, 2020
+}*/
+
+
+/*style the top nav */
+.topnav {
+  overflow: hidden;
+  background-color: #ccffcc;
+  border-style: double solid;
+  box-shadow: 5px 10px 10px black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #cce6ff;
+  color: black;
+}
+
+
+/* Style the header */
+header {
+	padding: 20px;
+	background: url(my_img3.jpg) 100%/ cover no-repeat;
+	height: 700px;
+	border-style: double solid;
+}
+
+
+/*Style the h1*/
+h1 { 
+	text-align: center;
+	color:white;
+	font-size:50px;
+	text-shadow: 2px 2px #cce6ff;
+}
+
+/*Style h2 */
+h2 {
+	color: #cce6ff;
+	text-align: bottom;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+article {
+  float: left;
+  width: 11%;
+  height: 190px; 
+  padding: 20px;
+  margin:0;
+  box-shadow: 5px 10px 10px black;
+  position: relative;
+}	
+
+/* Style the section */
+section {
+	position: relative;
+	margin-left: 3%;
+	padding: 5px;
+}
+
+/*Style the main */
+main {
+	background-color: #cce6ff;
+	border-style: double solid;
+}
+
+
+/*Style all the paragraph in the section*/
+ section > p {
+	padding-left: 250px;
+	
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color:#99ccff;
+}
+
+/*Style the body */
+body {
+	background-color:#ccffcc;
+	margin:0;
+}
+
+/*Style the footer*/
+footer {
+	background-color:#cce6ff;
+	border-style: double solid;
+}
+
