@@ -38,7 +38,6 @@ header {
 	background: url(my_img3.jpg) 100%/ cover no-repeat;
 	height: 700px;
 	border-style: double solid;
-	margin: 1px;
 }
 
 
@@ -79,7 +78,6 @@ section {
 main {
 	background-color: #cce6ff;
 	border-style: double solid;
-	margin: 1px;
 }
 
 
@@ -107,7 +105,6 @@ body {
 footer {
 	background-color:#cce6ff;
 	border-style: double solid;
-	margin: 1px;
 }
 
 /*Style p of the footer*/
