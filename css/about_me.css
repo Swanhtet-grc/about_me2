@@ -12,6 +12,7 @@ Date: Jan 6, 2020
   background-color: #ccffcc;
   border-style: double solid;
   box-shadow: 5px 10px 10px black;
+  margin: 2px;
 }
 
 /* Style the topnav links */
@@ -20,7 +21,7 @@ Date: Jan 6, 2020
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 18px;
   text-decoration: none;
 }
 
@@ -37,6 +38,7 @@ header {
 	background: url(my_img3.jpg) 100%/ cover no-repeat;
 	height: 700px;
 	border-style: double solid;
+	margin: 1px;
 }
 
 
@@ -58,12 +60,12 @@ h2 {
 /* Create two columns/boxes that floats next to each other */
 article {
   float: left;
-  width: 11%;
+  width: 130 px;
   height: 190px; 
   padding: 20px;
-  margin:0;
   box-shadow: 5px 10px 10px black;
   position: relative;
+  margin: 10px;
 }	
 
 /* Style the section */
@@ -77,13 +79,14 @@ section {
 main {
 	background-color: #cce6ff;
 	border-style: double solid;
+	margin: 1px;
 }
 
 
 /*Style all the paragraph in the section*/
  section > p {
 	padding-left: 250px;
-	
+	font-size: 20px;
 }
 
 /* Clear floats after the columns */
@@ -104,5 +107,21 @@ body {
 footer {
 	background-color:#cce6ff;
 	border-style: double solid;
+	margin: 1px;
 }
 
+/*Style p of the footer*/
+footer p {
+	text-align:center;
+}
+
+/*Remove all the underline of the links*/
+a {
+	text-decoration: none;
+}
+
+/*Style the div block which class is afterfloat */
+.afterfloat {
+	margin: 2%;
+	font-size: 18px;
+}
